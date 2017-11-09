@@ -1,0 +1,56 @@
+    body {
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#table {
+    width: 310px;
+    height: 310px;
+    padding: 0px;
+    border: 7px solid #999;
+    background-color: white;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+div#table div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px;
+    font-size: 90px;
+    text-align: center;
+}
+
+div#cell1,
+div#cell2,
+div#cell3,
+div#cell4,
+div#cell5,
+div#cell6 {
+    border-bottom: 5px solid black;
+}
+
+div#cell1,
+div#cell2,
+div#cell4,
+div#cell5,
+div#cell7,
+div#cell8 {
+    border-right: 5px solid black;
+}
+
+div#table>div:hover {
+    background-color: #ddd;
+}
+
+div#console {
+    width: 310px;
+    height: 30px;
+    padding: 7px;
+    border: 5px solid #999;
+    background-color: white;
+    margin:
